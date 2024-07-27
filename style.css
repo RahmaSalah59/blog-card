@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Figtree-bold;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face{
+    font-family:Figtree ;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin: 200px auto;
+    padding: 20px;
+    box-shadow: 10px 10px 0 0 black;
+    line-height: 10px;
+
+}
+img{
+    width: 300px;
+    height: auto;
+    border-radius: inherit;
+}
+.first{
+    font-family: Figtree-bold;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: hsl(47, 88%, 63%);
+}
+.second{
+    color: hsl(0, 0%, 42%);
+    font-family:Figtree ;
+    font-weight: 800;
+    font-size: 12px;
+}
+.headline{
+    font-family: Figtree-bold;
+    color: hsl(0, 0%, 7%);
+    font-size: 20px;
+}
+.third{
+    font-family: Figtree;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(0, 3%, 72%);
+    line-height: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+img[alt="avatar"]{
+    width: 40px;
+    border-radius: 50%;    
+}
+span{
+    font-family: Figtree-bold;
+    padding-left: 10px;
+}
